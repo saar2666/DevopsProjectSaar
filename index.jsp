@@ -6,15 +6,14 @@
 
     <FORM NAME="form1" METHOD="POST">
         <INPUT TYPE="HIDDEN" NAME="buttonName">
-        <INPUT TYPE="BUTTON" VALUE="Saar Button" ONCLICK="button1()">
+        <INPUT TYPE="BUTTON" VALUE="SaarButton" ONCLICK="SaarButton()">
     </FORM>
 
     <SCRIPT LANGUAGE="JavaScript">
         <!--
-        function button1()
+        function SaarButton()
         {
-            document.form1.buttonName.value = "yes";
-            form1.submit();
+		window.open("https://www.iherb.com");
         } 
         // --> 
     </SCRIPT>
